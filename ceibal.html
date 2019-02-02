@@ -10,7 +10,11 @@
                 <source src="videos/a.mp4">
                 <source src="videos/a.ogg">
             </video>
-            <script> document.getElementById('a.mp4').play(); </script>
+            <script> 
+                document.getElementById('a.mp4').play();
+                var vid = document.getElementById("videos/a.mp4");
+                vid.volume = 2;
+            </script>
         </section>
     </body>
 </html>
